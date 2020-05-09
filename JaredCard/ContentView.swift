@@ -14,6 +14,16 @@ struct ContentView: View {
             Color(red: 0.28, green: 0.49, blue: 0.69, opacity: 0.8)
                 .edgesIgnoringSafeArea(.all)
             VStack {
+                Image("wavez")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 150, height: 200)
+                    .clipShape(Circle())
+                    .overlay(
+                        Circle()
+                            .stroke(Color.white, lineWidth: 5)
+                )
+                
                 Text("Jared Borders")
                     .font(Font.custom("MerriweatherSans-Bold", size: 40))
                     .bold()
@@ -22,13 +32,13 @@ struct ContentView: View {
                     .font(.system(size: 25))
                     .bold()
                     .foregroundColor(.white)
+                Divider()
+                infoView(text: "jlbxsxs@gmail.com", imageName: "phone.fill")
+                
+                
+                
+                
             }
-            
-            
-            
-            
-            
-            
         }
     }
 }

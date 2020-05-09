@@ -21,6 +21,7 @@
 		B81BF5FE246639AE00044704 /* MerriweatherSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B81BF5F6246639AD00044704 /* MerriweatherSans-Italic.ttf */; };
 		B81BF5FF246639AE00044704 /* MerriweatherSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B81BF5F7246639AD00044704 /* MerriweatherSans-Bold.ttf */; };
 		B81BF600246639AE00044704 /* MerriweatherSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B81BF5F8246639AE00044704 /* MerriweatherSans-Light.ttf */; };
+		B81BF604246642F100044704 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81BF603246642F100044704 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B81BF5F6246639AD00044704 /* MerriweatherSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MerriweatherSans-Italic.ttf"; sourceTree = "<group>"; };
 		B81BF5F7246639AD00044704 /* MerriweatherSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MerriweatherSans-Bold.ttf"; sourceTree = "<group>"; };
 		B81BF5F8246639AE00044704 /* MerriweatherSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MerriweatherSans-Light.ttf"; sourceTree = "<group>"; };
+		B81BF603246642F100044704 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				B81BF5DB246635F800044704 /* AppDelegate.swift */,
 				B81BF5DD246635F800044704 /* SceneDelegate.swift */,
 				B81BF5DF246635F800044704 /* ContentView.swift */,
+				B81BF603246642F100044704 /* InfoView.swift */,
 				B81BF5E1246635FA00044704 /* Assets.xcassets */,
 				B81BF5E6246635FA00044704 /* LaunchScreen.storyboard */,
 				B81BF5E9246635FA00044704 /* Info.plist */,
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81BF604246642F100044704 /* InfoView.swift in Sources */,
 				B81BF5DC246635F800044704 /* AppDelegate.swift in Sources */,
 				B81BF5DE246635F800044704 /* SceneDelegate.swift in Sources */,
 				B81BF5E0246635F800044704 /* ContentView.swift in Sources */,
