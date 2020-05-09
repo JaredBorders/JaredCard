@@ -33,11 +33,8 @@ struct ContentView: View {
                     .bold()
                     .foregroundColor(.white)
                 Divider()
-                infoView(text: "jlbxsxs@gmail.com", imageName: "phone.fill")
-                
-                
-                
-                
+                infoView(text: "jlbxsxs@gmail.com", imageName: "envelope.fill", color: .blue)
+                infoView(text: "GitHub: JaredBorders", imageName: "person.crop.square", color: .green)
             }
         }
     }
